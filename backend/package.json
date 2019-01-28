@@ -1,0 +1,43 @@
+{
+  "name": "secret-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --ignore './db/' index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-plugin-styled-components": "^1.5.1",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "cors": "^2.8.4",
+    "date-fns": "^2.0.0-alpha.27",
+    "diskdb": "^0.1.17",
+    "express": "^4.16.3",
+    "google-images": "^2.1.0",
+    "isomorphic-fetch": "^2.2.1",
+    "node-cron": "^2.0.3",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "babel": {
+    "presets": [
+      "next/babel"
+    ],
+    "plugins": [
+      [
+        "babel-plugin-styled-components",
+        {
+          "ssr": true,
+          "displayName": true,
+          "preprocess": false
+        }
+      ]
+    ]
+  }
+}

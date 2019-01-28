@@ -1,0 +1,23 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "date-fns": "^2.0.0-alpha.27",
+    "next": "^7.0.2",
+    "react": "^16.8.0-alpha.1",
+    "react-dom": "^16.8.0-alpha.1",
+    "react-no-ssr": "^1.1.0",
+    "react-swipe-card": "^0.1.4",
+    "styled-components": "^4.1.3"
+  }
+}
